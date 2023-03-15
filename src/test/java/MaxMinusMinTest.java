@@ -51,7 +51,7 @@ public class MaxMinusMinTest {
         input.add(9);
         input.add(4);
         input.add(7);
-        int expected = 7;
+        int expected = 5;
         int actual = mmm.difference(input);
         Assert.assertEquals(expected,actual);
     }
